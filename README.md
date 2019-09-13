@@ -11,5 +11,5 @@ Bakas criados para acertos pontuais
 	Elimina movimento de div (apenas de valor) de uma ordem de produção (Obs: baka não valida se o período está aberto ou não)
 ##### delete_inv_col (Tuper)
 	Elimina os registros de leitura de inventario (elimina apenas a leitura, não as fichas)
-##### qrcode
+##### gera_qrcode
 	Geração de QRCode em arquivo png
