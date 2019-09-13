@@ -1,6 +1,8 @@
 # BakaProgress
 Bakas criados para acertos pontuais
 
+##### clientlog
+	Ativação de clientlog
 ##### HD132600 (Padrão)
 	Baka para criação de operacao alternativa
 ##### obsoleta (Padrão)

@@ -1,0 +1,15 @@
+DEF VAR c-arquivo AS CHAR NO-UNDO.
+
+UPDATE c-arquivo FORMAT "x(40)".
+
+ASSIGN SESSION:DEBUG-ALERT = YES
+LOG-MANAGER:LOGFILE-NAME = c-arquivo
+LOG-MANAGER:LOGGING-LEVEL = 7
+LOG-MANAGER:LOG-ENTRY-TYPES = "4GLMessages,4GLTrace:2,
+DB.Connects:3,DynObjects.DB:4,DynObjects.XML:5,
+DynObjects.Other:6,DynObjects.CLASS:7,DynObjects.UI:8,
+FileID:9,ProEvents.UI.CHAR:10,ProEvents.UI.COMMAND:11,
+ProEvents.Other:12,SAX:13".
+
+MESSAGE c-arquivo
+    VIEW-AS ALERT-BOX INFO BUTTONS OK.
