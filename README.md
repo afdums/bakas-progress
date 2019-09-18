@@ -15,3 +15,5 @@ Bakas criados para acertos pontuais
 	Elimina os registros de leitura de inventario (elimina apenas a leitura, não as fichas)
 ##### gera_qrcode
 	Geração de QRCode em arquivo png
+##### alteracao_situacao_MDFe
+	Altera situação do MDFe para reenvio para autorização da receita
