@@ -3,8 +3,8 @@ Bakas criados para acertos pontuais
 
 ##### clientlog
 	Ativação de clientlog
-##### HD132600 (Padrão)
-	Baka para criação de operacao alternativa
+##### cria_op_altern (Padrão)
+	Baka para criação de operacao alternativa, quando o item pode ser produzido em 2 GMs o programa faz a copia de uma GM para a outra e vice-versa
 ##### obsoleta (Padrão)
 	Obsoleta itens com base em uma lista txt (um item abaixo do outro)
 ##### alocacao_cm (Tuper)
@@ -24,6 +24,7 @@ Bakas criados para acertos pontuais
 	A UPC controla pela validação do handle de uma variável global da tela, pode ser variável padrão ou especifica
 	1. Cadastrar a UPC no programa fnc_executar_programa (men/men702dc.w)
 	2. Acertar o VALID-HANDLE pela variável global que deseja utilizar no controle
-	
+##### cm_qtidade_prod_niv_niv (Tuper)
+	Baka para verificar a quantidade a produzir de determinado item do pedido analisando nivel a nivel, util quando questionada a quantidade a produzir de determinado item no CM
 	
 	
