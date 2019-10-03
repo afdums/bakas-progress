@@ -23,3 +23,4 @@ ch-Excel:VISIBLE        = TRUE.
 
 IF VALID-HANDLE(ch-Excel) THEN
     RELEASE OBJECT ch-Excel.
+
