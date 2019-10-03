@@ -26,5 +26,10 @@ Bakas criados para acertos pontuais
 	2. Acertar o VALID-HANDLE pela variável global que deseja utilizar no controle
 ##### cm_qtidade_prod_niv_niv (Tuper)
 	Baka para verificar a quantidade a produzir de determinado item do pedido analisando nivel a nivel, util quando questionada a quantidade a produzir de determinado item no CM
-	
+##### comandos_excel (Progress x Excel)
+	Comandos uteis para geracao de planilhas excel
+##### tipo_saldo-terc (Totvs)
+	Tipos de saldo em terceiros (conteudo da ininc/i01404.i)
+
+		
 	
