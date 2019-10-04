@@ -30,6 +30,8 @@ Bakas criados para acertos pontuais
 	Comandos uteis para geracao de planilhas excel
 ##### tipo_saldo-terc (Totvs)
 	Tipos de saldo em terceiros (conteudo da ininc/i01404.i)
-
+##### gera_senha_spp
+	Gerador de senha para os programas especiais (SPP), a validade padrão de cada senha é na quinzena corrente
+	
 		
 	
