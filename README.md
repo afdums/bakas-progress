@@ -36,3 +36,6 @@ Bakas criados para acertos pontuais
 	Estorno movimentacao de DIVs geradas incorretamente para acerto de saldo em OP, as ordens de produção deve estar em um arquivo TXT com uma coluna que é o número da ordem de produção.
 ##### regera_boletos (GhelPlus / Totvs)
 	Baka para apagar o boleto gerado e gerar novo boleto, assim como desmarcar como atualizado no EMS 5.
+##### exemplo_geracao_xml (Progress)
+	Baka com o exemplo da criação de um arquivo XML com tags.
+
