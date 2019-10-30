@@ -34,3 +34,5 @@ Bakas criados para acertos pontuais
 	Gerador de senha para os programas especiais (SPP), a validade padrão de cada senha é na quinzena corrente
 ##### estorna_div_op (Tuper)
 	Estorno movimentacao de DIVs geradas incorretamente para acerto de saldo em OP, as ordens de produção deve estar em um arquivo TXT com uma coluna que é o número da ordem de produção.
+##### regera_boletos (GhelPlus / Totvs)
+	Baka para apagar o boleto gerado e gerar novo boleto, assim como desmarcar como atualizado no EMS 5.
