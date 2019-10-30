@@ -12,5 +12,6 @@ for each fat-duplic
        and fat-duplic.serie      = c-serie
        and fat-duplic.nr-fatura  = c-nr-nota-fis exclusive-lock:
        
-    assign fat-duplic.char-1 = "".
+    assign fat-duplic.char-1 = ""
+           fat-duplic.flag-atualiz = no.
 end.  
