@@ -39,6 +39,6 @@ Bakas criados para acertos pontuais
 ##### exemplo_geracao_xml (Progress)
 	Baka com o exemplo da criação de um arquivo XML com tags.
 ##### consumo_json (Progress)
-	Exemplo de consumo de servidor REST JSON
-
-
+	Exemplo de consumo de api REST JSON
+##### consumo_soap (Progress)
+	Exemplo de consumo de webservice SOAP XML
