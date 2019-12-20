@@ -38,4 +38,7 @@ Bakas criados para acertos pontuais
 	Baka para apagar o boleto gerado e gerar novo boleto, assim como desmarcar como atualizado no EMS 5.
 ##### exemplo_geracao_xml (Progress)
 	Baka com o exemplo da criação de um arquivo XML com tags.
+##### consumo_json (Progress)
+	Exemplo de consumo de servidor REST JSON
+
 
