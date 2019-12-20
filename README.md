@@ -42,3 +42,5 @@ Bakas criados para acertos pontuais
 	Exemplo de consumo de api REST JSON
 ##### consumo_soap (Progress)
 	Exemplo de consumo de webservice SOAP XML
+##### killuser_windows (Progress)
+	Programas para derrubar usuário em banco de dados windows
