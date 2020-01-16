@@ -44,3 +44,7 @@ Bakas criados para acertos pontuais
 	Exemplo de consumo de webservice SOAP XML
 ##### killuser_windows (Progress)
 	Programas para derrubar usuário em banco de dados windows
+##### dependencia_entre_objetos (Progress)
+	Lista as dependências entre os objetos progress
+##### elimina_titulo_a_receber (Totvs)
+	Elimina o titulo do contas a receber. ATENÇÃO: é a mesma rotina utilizada para eliminar o titulo quando a nota fiscal é cancelada
