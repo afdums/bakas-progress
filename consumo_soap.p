@@ -72,11 +72,11 @@ PROCEDURE pi-consulta-ws:
     DEFINE VAR objetos   AS CHARACTER NO-UNDO.
     DEFINE VAR retorno   AS LONGCHAR NO-UNDO.
     
-    ASSIGN usuario   = "9912333367"
-           senha     = "N>WQNO>2IT"
-           tipo      = "L"
-           resultado = "T"
-           lingua    = "101".
+    ASSIGN usuario   = ""
+           senha     = ""
+           tipo      = ""
+           resultado = ""
+           lingua    = "".
 
     ASSIGN c-saida-xml = c-arquivo + "xml-correios-" + REPLACE(STRING(TODAY),"/","-") + "-" + STRING(TIME) + ".xml".
 

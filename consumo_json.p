@@ -46,8 +46,8 @@ def temp-table tt-rastreio
 
 /* INI - requisicao web */
 assign oClient   = ClientBuilder:Build():Client       
-       oUri      = new URI("http", "scmdex.azurewebsites.net") /* URI("metodo", "dominio", "porta") */
-       oUri:Path = "/api/Ocorrencias/123456/570792038/true".                                       /* URI:Path: demais partes da URL destino */
+       oUri      = new URI("http", "") /* URI("metodo", "dominio", "porta") */
+       oUri:Path = "".                                       /* URI:Path: demais partes da URL destino */
        
 /* Faz a requisicao utilizando GET */
 oReq  = RequestBuilder:Get(oUri):Request.

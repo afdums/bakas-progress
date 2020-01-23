@@ -48,3 +48,4 @@ Bakas criados para acertos pontuais
 	Lista as dependências entre os objetos progress
 ##### elimina_titulo_a_receber (Totvs)
 	Elimina o titulo do contas a receber. ATENÇÃO: é a mesma rotina utilizada para eliminar o titulo quando a nota fiscal é cancelada
+	

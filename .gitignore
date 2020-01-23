@@ -1,2 +1,4 @@
 #Bat para abertura do visual studio
 *.bat
+
+*.config
