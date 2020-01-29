@@ -2,6 +2,14 @@
 /* caso o webservice não conecte pro erro de HTTPSYS, copiar a DLL msvcr71.dll
    para system32 e SysWOW64 */
    
+/*
+Artigos de apoio: https://knowledgebase.progress.com/articles/Article/P172455
+
+https://sl4v3r.wordpress.com/2009/12/15/using-the-bprowsdldoc-in-progress/
+
+*/   
+   
+   
 /*DEF INPUT PARAM p-num-dias AS INTEGER NO-UNDO.   */
 
 DEF VAR c-saida-xml AS CHAR NO-UNDO.
