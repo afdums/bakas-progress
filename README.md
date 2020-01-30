@@ -52,3 +52,5 @@ Bakas criados para acertos pontuais
 	Verifica todas as OCs que possuem alocação na prazo-compra e tenta zera-las rodando o programa spp\ccp\spcc035rp.p em lote (sem pedir senha)
 ##### conferencia_entrada_escapamentos
 	Regra para verificar se deve ou não gerar a pendencia de recebimento automatico na escapamentos, a pendencia deve ser gerada quando a quantidade faturada for menor ou igual a coletada no destino.
+##### upc-captura-eventos.p
+	UPC padrão para mapear os eventos disparados por um determinado programa
