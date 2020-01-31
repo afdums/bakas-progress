@@ -54,3 +54,5 @@ Bakas criados para acertos pontuais
 	Regra para verificar se deve ou não gerar a pendencia de recebimento automatico na escapamentos, a pendencia deve ser gerada quando a quantidade faturada for menor ou igual a coletada no destino.
 ##### upc-captura-eventos.p
 	UPC padrão para mapear os eventos disparados por um determinado programa
+##### emula_tree_view.w (Totvs)
+	Emula a criação de um treeview com base na tabela de estruturas
