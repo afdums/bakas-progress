@@ -40,6 +40,8 @@ Bakas criados para acertos pontuais
 	Baka com o exemplo da criação de um arquivo XML com tags.
 ##### consumo_json (Progress)
 	Exemplo de consumo de api REST JSON
+##### consumo_json_com_autenticacao
+	Exemplo de consumo de api REST JSON com autenticacao
 ##### consumo_soap (Progress)
 	Exemplo de consumo de webservice SOAP XML
 ##### killuser_windows (Progress)
