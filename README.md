@@ -58,3 +58,5 @@ Bakas criados para acertos pontuais
 	UPC padrão para mapear os eventos disparados por um determinado programa
 ##### tree_view_em_browser.w (Totvs)
 	Emula a criação de um treeview com base na tabela de estruturas em um browser
+##### exporta_op_smi_manual (Tuper)
+	Exporta OPs manualmente para o SMI da Tuper
