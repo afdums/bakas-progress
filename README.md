@@ -60,3 +60,6 @@ Bakas criados para acertos pontuais
 	Emula a criação de um treeview com base na tabela de estruturas em um browser
 ##### exporta_op_smi_manual (Tuper)
 	Exporta OPs manualmente para o SMI da Tuper
+##### script_compilacao.p (Progress)
+	Gera um script para compilação de programas com base em busca de palavras chave, inclusive lendo estrutura onde includes são utilizadas
+	
