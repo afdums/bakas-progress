@@ -1,5 +1,5 @@
 # BakaProgress
-Bakas criados para acertos pontuais
+Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totvs
 
 ##### clientlog
 	Ativação de clientlog
