@@ -62,4 +62,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Exporta OPs manualmente para o SMI da Tuper
 ##### script_compilacao.p (Progress)
 	Gera um script para compilação de programas com base em busca de palavras chave, inclusive lendo estrutura onde includes são utilizadas
-	
+##### copia_item_uni-estab (Totvs)
+	Copia os registros da tabela item-uni-estab de um estabelecimento para outro, também copia a fam-uni-estab
