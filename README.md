@@ -52,9 +52,9 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Elimina o titulo do contas a receber. ATENÇÃO: é a mesma rotina utilizada para eliminar o titulo quando a nota fiscal é cancelada
 ##### acerta_alocacao_ocs_em_massa (Totvs)	
 	Verifica todas as OCs que possuem alocação na prazo-compra e tenta zera-las rodando o programa spp\ccp\spcc035rp.p em lote (sem pedir senha)
-##### conferencia_entrada_escapamentos
+##### conferencia_entrada_escapamentos (Tuper)
 	Regra para verificar se deve ou não gerar a pendencia de recebimento automatico na escapamentos, a pendencia deve ser gerada quando a quantidade faturada for menor ou igual a coletada no destino.
-##### upc-captura-eventos.p
+##### upc-captura-eventos.p (Totvs)
 	UPC padrão para mapear os eventos disparados por um determinado programa
 ##### tree_view_em_browser.w (Totvs)
 	Emula a criação de um treeview com base na tabela de estruturas em um browser
@@ -66,3 +66,6 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Copia os registros da tabela item-uni-estab de um estabelecimento para outro, também copia a fam-uni-estab
 ##### saldos_trimestrais (Serraltense)
 	Recomposição de saldos trimestrais por ano
+##### epc-captura-eventos (Totvs)
+	EPC padrão para mapear os eventos disparados por um determinado programa
+	
