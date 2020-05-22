@@ -68,4 +68,6 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Recomposição de saldos trimestrais por ano
 ##### epc-captura-eventos (Totvs)
 	EPC padrão para mapear os eventos disparados por um determinado programa
+##### acerta_quantidade_emitente (Tuper)
+	Baka para acertar a quantidade do emitente para retorno das notas para a Arcelor quando esta quantidade foi digitada incorretamente no lançamento da entrada da bobina na portaria fiscal (digitada em quilo e deveria ser em toneladas)
 	
