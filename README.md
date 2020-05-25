@@ -72,3 +72,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Baka para acertar a quantidade do emitente para retorno das notas para a Arcelor quando esta quantidade foi digitada incorretamente no lançamento da entrada da bobina na portaria fiscal (digitada em quilo e deveria ser em toneladas)
 ##### acerta_commisao (GhelPlus)
 	Programa utilizado para acertar os parametros das comissões para que seja possível atualizar as comissões no contas a pagar
+##### lista_funcionarios_desligados (HCM)
+	Lista os funcionarios desligados nos últimos dias.
