@@ -74,3 +74,22 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Programa utilizado para acertar os parametros das comissões para que seja possível atualizar as comissões no contas a pagar
 ##### lista_funcionarios_desligados (HCM)
 	Lista os funcionarios desligados nos últimos dias.
+##### odbc_progress_64 (Progress)
+	ODBC Progress para 64 bits
+##### exemplo_cabecalho_rodape (Datasul)
+	Exemplo de como criar um relatorio com FORMs utilizando cabeçalho e rodapé, sem includes
+##### template_relatorio (Datasul)
+	Template completo para criação de relatório nos padrões Datasul
+##### consulta_ordem_subordem (Tuper)
+	Consulta de relacionamento especifico de ordens x sub-ordens
+##### altera_conexao_nfe_para_teste (Gati)
+	Altera caminhos do Conexao NFe para caminhos de teste
+##### create_esp-movto-nft (Tuper)
+	Cria esp-movto-nft manualmente para ser consumida pelo programa ET3103
+##### consuta_execucao_rpw (Datasul)
+	Consulta frequencia de execucao de um programa no RPW
+##### exporta_importa_especificos (Datasul)
+	Programa que permite exportar/importar cadastro de UPC em programas e Tabelas
+##### recalcula_pedidos_venda (Datasul)
+	Recalcula o preço dos pedidos de venda (simula botão de cálculo do PD4000 e do PD4050). Criado para atender a GP que possuia problemas de alteração de MVA após a implantação do pedido.
+	

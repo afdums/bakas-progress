@@ -14,7 +14,7 @@ FOR EACH tt-bobina:
     IF tt-bobina.lote = "" THEN
         NEXT.
 
-    FOR FIRST saldo-estoq
+    FOR LAST saldo-estoq
         WHERE saldo-estoq.lote = tt-bobina.lote NO-LOCK,
         FIRST movto-estoq OF saldo-estoq
         WHERE movto-estoq.esp-docto = 21 NO-LOCK:
@@ -24,24 +24,36 @@ FOR EACH tt-bobina:
     IF NOT AVAIL saldo-estoq THEN
         NEXT.
 
-    DISP saldo-estoq.it-codigo
-         tt-bobina.lote
-        WITH WIDTH 200.
+    
 
 
-    FIND FIRST saldo-terc
-         WHERE saldo-terc.it-codigo = saldo-estoq.it-codigo
-           AND saldo-terc.lote      = tt-bobina.lote NO-LOCK NO-ERROR.
+    FIND LAST saldo-terc
+         WHERE saldo-terc.it-codigo    = saldo-estoq.it-codigo
+           AND saldo-terc.lote         = tt-bobina.lote
+           AND saldo-terc.cod-emitente = 62900 NO-LOCK NO-ERROR.
+
+    FIND FIRST docum-est OF saldo-terc NO-LOCK NO-ERROR.
+
+    FIND FIRST item-doc-est OF docum-est NO-LOCK NO-ERROR.
+
+    //IF item-doc-est.qt-do-forn = item-doc-est.quantidade THEN
+        DISP saldo-estoq.it-codigo
+             tt-bobina.lote
+            WITH WIDTH 200.
+        DISP 
+             saldo-terc.nro-docto
+             item-doc-est.qt-do-forn
+             item-doc-est.quantidade
+            WITH WIDTH 200.
 
     FIND FIRST componente OF saldo-terc EXCLUSIVE-LOCK NO-ERROR.
 
-    /* se a quantidade for maior que 1000 significa que foi lançada errada */
+    /*/* se a quantidade for maior que 1000 significa que foi lançada errada */
     IF AVAIL componente AND componente.qt-do-forn > 1000 THEN
-        ASSIGN componente.qt-do-forn = componente.qt-do-forn / 1000.
-    DISP componente.qt-do-forn
-        WITH WIDTH 200.
+        ASSIGN componente.qt-do-forn = componente.qt-do-forn / 1000.*/
+    /*DISP componente.qt-do-forn
+        WITH WIDTH 200.*/
     
 
 END.
 OUTPUT CLOSE.
-
