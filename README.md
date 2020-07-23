@@ -92,4 +92,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Programa que permite exportar/importar cadastro de UPC em programas e Tabelas
 ##### recalcula_pedidos_venda (Datasul)
 	Recalcula o preço dos pedidos de venda (simula botão de cálculo do PD4000 e do PD4050). Criado para atender a GP que possuia problemas de alteração de MVA após a implantação do pedido.
-	
+##### altera_permite_saldo_negativo (Datasul)
+	Permite alteração da permissão de saldo negativo para o item e para o item x estabelecimento de todos os itens de determinado grupo de estoque
