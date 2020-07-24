@@ -94,3 +94,7 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Recalcula o preço dos pedidos de venda (simula botão de cálculo do PD4000 e do PD4050). Criado para atender a GP que possuia problemas de alteração de MVA após a implantação do pedido.
 ##### altera_permite_saldo_negativo (Datasul)
 	Permite alteração da permissão de saldo negativo para o item e para o item x estabelecimento de todos os itens de determinado grupo de estoque
+##### acerta_ggf_interroga (Datasul)
+	No cálculo do médio quando fica interroga (?) em algums movimentos não é possível dar sequencia com o cálculo
+##### upc-ceapi001 (Datasul)
+	Exemplo de UPC para tratamento de movimentações de estoque (validações)
