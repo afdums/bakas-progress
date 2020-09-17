@@ -98,3 +98,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	No cálculo do médio quando fica interroga (?) em algums movimentos não é possível dar sequencia com o cálculo
 ##### upc-ceapi001 (Datasul)
 	Exemplo de UPC para tratamento de movimentações de estoque (validações)
+##### busca_campo (Progress)
+	Programa para encontrar em qual tabela determinado campo existe

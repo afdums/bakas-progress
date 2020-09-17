@@ -17,7 +17,8 @@ CASE i-opcao:
     WHEN 1 THEN DO:
         OUTPUT TO VALUE(c-dir + "\prog_dtsul.d").
         FOR EACH prog_dtsul
-            WHERE prog_dtsul.nom_prog_upc <> "" NO-LOCK:
+            WHERE prog_dtsul.nom_prog_upc <> "" 
+               OR prog_dtsul.nom_prog_dpc <> "" NO-LOCK:
             EXPORT prog_dtsul.
         END.
         OUTPUT CLOSE.
@@ -34,9 +35,11 @@ CASE i-opcao:
     WHEN 2 THEN DO:
         OUTPUT TO VALUE(c-dir + "\prog_dtsul.d").
         FOR EACH prog_dtsul
-            WHERE prog_dtsul.nom_prog_upc <> "" EXCLUSIVE-LOCK:
+            WHERE prog_dtsul.nom_prog_upc <> ""
+               OR prog_dtsul.nom_prog_dpc <> "" EXCLUSIVE-LOCK:
             EXPORT prog_dtsul.
-            ASSIGN prog_dtsul.nom_prog_upc = "".
+            ASSIGN prog_dtsul.nom_prog_upc = ""
+                   prog_dtsul.nom_prog_dpc = "".
         END.
         OUTPUT CLOSE.
         OUTPUT TO VALUE(c-dir + "\tab_dic_dtsul.d").
@@ -70,7 +73,8 @@ CASE i-opcao:
             FIND FIRST prog_dtsul
                  WHERE prog_dtsul.cod_prog_dtsul = tt-prog_dtsul.cod_prog_dtsul EXCLUSIVE-LOCK NO-ERROR.
             IF AVAIL prog_dtsul THEN
-                ASSIGN prog_dtsul.nom_prog_upc = tt-prog_dtsul.nom_prog_upc.
+                ASSIGN prog_dtsul.nom_prog_upc = tt-prog_dtsul.nom_prog_upc
+                       prog_dtsul.nom_prog_dpc = tt-prog_dtsul.nom_prog_dpc.
         END.
         FOR EACH tt-tab_dic_dtsul:
             FIND FIRST tab_dic_dtsul
@@ -84,4 +88,3 @@ CASE i-opcao:
         END.
     END.
 END CASE.
-
