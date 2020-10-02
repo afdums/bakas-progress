@@ -102,3 +102,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Programa para encontrar em qual tabela determinado campo existe
 ##### transfere_entre_depositos (Datasul)
 	Importa um arquivo CSV e realiza a transferencia entre os depósitos solicitados
+##### exemplo_select_count (Progress)
+	Exemplo de como contar registros em uma tabela e armazenar em uma variável utilizando SELECT (SQL)

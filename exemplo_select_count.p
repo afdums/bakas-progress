@@ -1,0 +1,6 @@
+DEF VAR i-cont AS INTEGER NO-UNDO.
+    
+SELECT COUNT(*) INTO i-cont FROM exporta-op-smi.
+
+MESSAGE i-cont
+    VIEW-AS ALERT-BOX INFO BUTTONS OK.
