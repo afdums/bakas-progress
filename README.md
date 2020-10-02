@@ -100,3 +100,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Exemplo de UPC para tratamento de movimentações de estoque (validações)
 ##### busca_campo (Progress)
 	Programa para encontrar em qual tabela determinado campo existe
+##### transfere_entre_depositos (Datasul)
+	Importa um arquivo CSV e realiza a transferencia entre os depósitos solicitados
