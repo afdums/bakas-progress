@@ -104,3 +104,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Importa um arquivo CSV e realiza a transferencia entre os depósitos solicitados
 ##### exemplo_select_count (Progress)
 	Exemplo de como contar registros em uma tabela e armazenar em uma variável utilizando SELECT (SQL)
+##### verifica_ocs_amb (Tuper)
+	Verifica se existe alguma OC "perdida" da AMB que o material já tenha voltado pra Tuper
