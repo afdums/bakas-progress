@@ -106,3 +106,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Exemplo de como contar registros em uma tabela e armazenar em uma variável utilizando SELECT (SQL)
 ##### verifica_ocs_amb (Tuper)
 	Verifica se existe alguma OC "perdida" da AMB que o material já tenha voltado pra Tuper
+##### executar_e_desfazer (Progress/Totvs)
+	Executa um programa e ao fechar ele desfaz tudo que foi feito nele
