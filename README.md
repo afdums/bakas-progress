@@ -108,3 +108,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Verifica se existe alguma OC "perdida" da AMB que o material já tenha voltado pra Tuper
 ##### executar_e_desfazer (Progress/Totvs)
 	Executa um programa e ao fechar ele desfaz tudo que foi feito nele
+##### envia_email_erro_nft (Tuper)
+	Altera a data e hora do ultimo e-mail de erros enviados para que execute o envio na próxima execução novamente
