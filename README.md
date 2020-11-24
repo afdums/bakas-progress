@@ -112,3 +112,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Altera a data e hora do ultimo e-mail de erros enviados para que execute o envio na próxima execução novamente
 ##### temp_table_dinamica (Progress)
 	Como criar uma temp-table dinâmica em progress
+##### elimina_pre_ped_item (Tuper Escapamentos)
+	Eliminar a sequencia de dentro de um pré-pedido do ET2511
