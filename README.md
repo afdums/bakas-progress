@@ -114,3 +114,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Como criar uma temp-table dinâmica em progress
 ##### elimina_pre_ped_item (Tuper Escapamentos)
 	Eliminar a sequencia de dentro de um pré-pedido do ET2511
+##### dialog_get_file (Progress)
+	Exemplo de como chamar a caixa de dialogo do windows para buscar um arquivo
