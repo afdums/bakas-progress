@@ -118,5 +118,7 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Exemplo de como chamar a caixa de dialogo do windows para buscar um arquivo
 ##### matriz_linha_coluna_pdfinc (PDFINCLUDE Progress)
 	Monta uma página PDF (portrait por default) com as colunas e linhas, para facilitar posicionamento de informacoes
+##### altera_negativo_item (Datasul)
+	Altera itens para aceitar negativo ou não com base em uma lista de itens importados ou documentos de entrada
 
 	
