@@ -120,5 +120,7 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Monta uma página PDF (portrait por default) com as colunas e linhas, para facilitar posicionamento de informacoes
 ##### altera_negativo_item (Datasul)
 	Altera itens para aceitar negativo ou não com base em uma lista de itens importados ou documentos de entrada
+##### PDFinclude3.3.3 (Progress)
+	PDFInclude para geração de relatórios em PDF a partir do Progress
 
 	
