@@ -116,3 +116,7 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Eliminar a sequencia de dentro de um pré-pedido do ET2511
 ##### dialog_get_file (Progress)
 	Exemplo de como chamar a caixa de dialogo do windows para buscar um arquivo
+##### matriz_linha_coluna_pdfinc (PDFINCLUDE Progress)
+	Monta uma página PDF (portrait por default) com as colunas e linhas, para facilitar posicionamento de informacoes
+
+	
