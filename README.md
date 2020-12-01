@@ -122,5 +122,7 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Altera itens para aceitar negativo ou não com base em uma lista de itens importados ou documentos de entrada
 ##### PDFinclude3.3.3 (Progress)
 	PDFInclude para geração de relatórios em PDF a partir do Progress
+##### exemplo_code39_pdf (Progress PDFINCLUDE)
+	Exemplo de como gerar Code39 em Progress com PDF Include
 
 	
