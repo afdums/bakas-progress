@@ -124,5 +124,7 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	PDFInclude para geração de relatórios em PDF a partir do Progress
 ##### exemplo_code39_pdf (Progress PDFINCLUDE)
 	Exemplo de como gerar Code39 em Progress com PDF Include
+##### template_relatorio_planilha (Datasul)
+	Template para geração de relatórios em planilha utilizando a utapi033
 
 	
