@@ -126,5 +126,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Exemplo de como gerar Code39 em Progress com PDF Include
 ##### template_relatorio_planilha (Datasul)
 	Template para geração de relatórios em planilha utilizando a utapi033
-
-	
+##### elimina_espacos_extras
+	Elimina espaços extras no meio de uma setenção, para inicio e fim é possível utilizar o comando TRIM
