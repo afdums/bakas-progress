@@ -126,5 +126,10 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Exemplo de como gerar Code39 em Progress com PDF Include
 ##### template_relatorio_planilha (Datasul)
 	Template para geração de relatórios em planilha utilizando a utapi033
-##### elimina_espacos_extras
+##### elimina_espacos_extras (Progress)
 	Elimina espaços extras no meio de uma setenção, para inicio e fim é possível utilizar o comando TRIM
+##### nivel_mais_baixo_estrutura (Totvs)
+	Zera o campo nivel mais baixo dos itens para permitir estourar o limite de 30 niveis no cadastro
+##### derrubar usuário banco de dados UNIX (progress)
+	O link abaixo acessa um documento compartilhado detalhando o passo a passo do uso do promon para derrubar usuário preso no banco de dados:
+	https://docs.google.com/document/d/1qL75EqW_UiTD1s6Eh_bEP33tEQRPE1NlME4PC7_NYSU/edit?usp=sharing
