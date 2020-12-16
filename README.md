@@ -133,3 +133,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 ##### derrubar usuário banco de dados UNIX (progress)
 	O link abaixo acessa um documento compartilhado detalhando o passo a passo do uso do promon para derrubar usuário preso no banco de dados:
 	https://docs.google.com/document/d/1qL75EqW_UiTD1s6Eh_bEP33tEQRPE1NlME4PC7_NYSU/edit?usp=sharing
+##### abrir_arquivo_txt_tela (progress)
+	Exemplo de como abrir um arquivo TXT em tela (Windows)
