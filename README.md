@@ -136,3 +136,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Exemplo de como abrir um arquivo TXT em tela (Windows)
 ##### acerta_ggf_medio_faixa_datas (Datasul)
 	Corrige ??? no GGF após o fechamento por faixa de datas
+##### EAN-13-sem-macro (Excel)
+	Criação de etiquetas EAN-13
