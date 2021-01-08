@@ -138,3 +138,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Corrige ??? no GGF após o fechamento por faixa de datas
 ##### EAN-13-sem-macro (Excel)
 	Criação de etiquetas EAN-13
+##### esp_docto_movto_estoq (Datasul)
+	Gera uma temp-table com todos os tipos de movimento do CE0814, código, sigla e descricao
