@@ -140,3 +140,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Criação de etiquetas EAN-13
 ##### esp_docto_movto_estoq (Datasul)
 	Gera uma temp-table com todos os tipos de movimento do CE0814, código, sigla e descricao
+##### consulta_lotacao_gm_cm (Tuper)
+	Consulta o acumulado da lotação das GMs no carga máquina, útil para analisar porque pedidos estão sendo alocados tanto para o futuro
