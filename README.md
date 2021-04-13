@@ -142,3 +142,6 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Gera uma temp-table com todos os tipos de movimento do CE0814, código, sigla e descricao
 ##### consulta_lotacao_gm_cm (Tuper)
 	Consulta o acumulado da lotação das GMs no carga máquina, útil para analisar porque pedidos estão sendo alocados tanto para o futuro
+##### cancela_cte_ophos (GhelPlus)
+	Usado para cancelar no Totvs um CTe após o mesmo já ter sido cancelado no sistema da Ophos. Necessário estornar manualmente no EMS5 após isto.
+
