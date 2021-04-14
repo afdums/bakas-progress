@@ -144,4 +144,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Consulta o acumulado da lotação das GMs no carga máquina, útil para analisar porque pedidos estão sendo alocados tanto para o futuro
 ##### cancela_cte_ophos (GhelPlus)
 	Usado para cancelar no Totvs um CTe após o mesmo já ter sido cancelado no sistema da Ophos. Necessário estornar manualmente no EMS5 após isto.
-
+##### gera_pedido_compra_amb (Tuper)
+	Cria pedido e ordens de compra para retorno de material AMB, utilizar quando a nota de envio para a AMB não gerar o pedido corretamente.
