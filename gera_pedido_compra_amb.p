@@ -8,15 +8,13 @@ FIND FIRST esp-lote-consignado
      WHERE esp-lote-consignado.lote = c-lote EXCLUSIVE-LOCK NO-ERROR.
 IF AVAIL esp-lote-consignado THEN DO:
 
-    ASSIGN esp-lote-consignado.num-pedido = 0.
-
     RUN etp/et3175-pedido-compr.p(INPUT esp-lote-consignado.lote,
                                   OUTPUT i-num-pedido,
                                   OUTPUT c-erro).
 
     IF esp-lote-consignado.num-pedido <> 0 THEN DO:
         RUN etp/et3178-pedido-compr.p(INPUT esp-lote-consignado.lote,
-                                      INPUT i-num-pedido).
+                                      INPUT esp-lote-consignado.num-pedido).
     END.
     ELSE DO:
         MESSAGE c-erro
