@@ -148,5 +148,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Cria pedido e ordens de compra para retorno de material AMB, utilizar quando a nota de envio para a AMB não gerar o pedido corretamente.
 ##### altera_data_saida_pedidos_csv (Tuper)
 	Altera a data de saida de varios pedidos com base em um arquivo CSV
-##### notas_acerlor_pendentes_estoque (Tuper)
+##### notas_amb_pendentes_estoque (Tuper)
 	Listas notas enviadas para a AMB que não atualizar estoque na saída
