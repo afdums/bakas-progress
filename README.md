@@ -150,3 +150,8 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Altera a data de saida de varios pedidos com base em um arquivo CSV
 ##### notas_amb_pendentes_estoque (Tuper)
 	Listas notas enviadas para a AMB que não atualizar estoque na saída
+##### lista_espec-tec (Tuper)
+	Lista dados da tabela espec-tec (ET2041)
+##### altera_caminhos_conexao_gati_teste (Conexao NFe)
+	Altera os caminhos dos XML do Conexão NFE (base de testes)
+	
