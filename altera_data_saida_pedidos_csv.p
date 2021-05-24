@@ -17,7 +17,7 @@ DEF VAR i-dia-max-fat AS INTEGER NO-UNDO.
 
 DEF BUFFER b-ped-item FOR ped-item.
 
-INPUT FROM U:\dums\altera_data_saida\HD142121.txt.
+INPUT FROM U:\dums\altera_data_saida\HD142689.csv.
 REPEAT:
     CREATE tt-ped-item.
     IMPORT DELIMITER ";" tt-ped-item.
@@ -57,11 +57,11 @@ FOR EACH tt-ped-item:
         
                 ASSIGN tt-ped-item.situacao = "Alterado".
         
-                FIND FIRST b-ped-item
+                /*FIND FIRST b-ped-item
                      WHERE ROWID(b-ped-item) = ROWID(ped-item) EXCLUSIVE-LOCK NO-ERROR.
                 IF AVAIL b-ped-item THEN
                     ASSIGN b-ped-item.dt-min-fat = tt-ped-item.dt-min-fat-nova
-                           b-ped-item.dt-max-fat = b-ped-item.dt-min-fat + i-dia-max-fat.
+                           b-ped-item.dt-max-fat = b-ped-item.dt-min-fat + i-dia-max-fat.*/
         
             END.
 
@@ -70,9 +70,25 @@ FOR EACH tt-ped-item:
 
 END.
 
-OUTPUT TO U:\dums\altera_data_saida\HD142121-log.txt.  
+OUTPUT TO U:\dums\altera_data_saida\HD142689-log.txt.  
 FOR EACH tt-ped-item:
     DISP tt-ped-item
         WITH WIDTH 200.
+END.
+OUTPUT CLOSE.
+
+OUTPUT TO U:\dums\altera_data_saida\HD142689-erros.csv.
+EXPORT DELIMITER ";"
+    "it-codigo"
+    "nome-abrev"
+    "nr-pedcli"
+    "dt-min-fat-old"
+    "dt-min-fat-nova"
+    "nr-sequencia"
+    "situacao".
+FOR EACH tt-ped-item
+    WHERE tt-ped-item.situacao <> "Alterado":
+    EXPORT DELIMITER ";"
+        tt-ped-item.
 END.
 OUTPUT CLOSE.
