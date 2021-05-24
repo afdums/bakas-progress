@@ -154,4 +154,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Lista dados da tabela espec-tec (ET2041)
 ##### altera_caminhos_conexao_gati_teste (Conexao NFe)
 	Altera os caminhos dos XML do Conexão NFE (base de testes)
-	
+##### faz_devolucao_nft (Datasul/Tuper)
+	Faz a devolução (cria um nova NFT de retorno) de NFT, quando esta ja foi emitida a mais de 24 horas e não pode mais ser cancelada.
