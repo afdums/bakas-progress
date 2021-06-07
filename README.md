@@ -156,6 +156,7 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Altera os caminhos dos XML do Conexão NFE (base de testes)
 ##### faz_devolucao_nft (Datasul/Tuper)
 	Faz a devolução (cria um nova NFT de retorno) de NFT, quando esta ja foi emitida a mais de 24 horas e não pode mais ser cancelada.
-###### altera_ultimo_envio_email_nft (Tuper)
-		Altera o parametro que monitora o tempo de envio do ultimo e-mail de erros no ET3103.
-	
+##### altera_ultimo_envio_email_nft (Tuper)
+	Altera o parametro que monitora o tempo de envio do ultimo e-mail de erros no ET3103.
+##### atualiza_fam_item_aps (APS Totvs/Datasul)
+	Atualiza em lote os cadastros dos item, item x estabelecimento, familia e familia x estabelecimento
