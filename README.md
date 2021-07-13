@@ -160,3 +160,5 @@ Bakas criados para acertos pontuais linguagem progress 4gl openedge datasul totv
 	Altera o parametro que monitora o tempo de envio do ultimo e-mail de erros no ET3103.
 ##### atualiza_fam_item_aps (APS Totvs/Datasul)
 	Atualiza em lote os cadastros dos item, item x estabelecimento, familia e familia x estabelecimento
+##### gera_csv_cm (Tuper)
+	Gera um arquivo CSV com todos os dados do CM (ET2443Z) por estabelecimento
